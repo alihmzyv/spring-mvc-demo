@@ -11,7 +11,7 @@ https://hellokoding.com/form-data-binding-and-validation-example-with-java-sprin
 <@spring.bind "countryOptions"/>
 <@spring.bind "langOptions"/>
 <@spring.bind "osOptions"/>
-<form action="/student/processForm" method="post">
+<form action="processForm" method="post">
     First Name: <@spring.formInput path="student.firstName"/>
     <@spring.showErrors "<br>"/><br>
     Last Name: <@spring.formInput path="student.lastName"/>

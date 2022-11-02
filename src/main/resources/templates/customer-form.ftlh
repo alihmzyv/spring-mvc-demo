@@ -8,7 +8,7 @@ https://docs.spring.io/spring-framework/docs/3.0.0.M4/reference/html/ch16s04.htm
 <#--
 https://hellokoding.com/form-data-binding-and-validation-example-with-java-spring-boot-and-freemarker/
 -->
-<form action="/customer/processForm" method="post">
+<form action="processForm" method="post">
     First Name: <@spring.formInput path="customer.name"/>
     <@spring.showErrors "<br>"/><br>
     Last Name: <@spring.formInput path="customer.surname"/>
